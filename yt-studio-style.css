@@ -2,11 +2,75 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logocontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.logoimgcontainer {
+    width: 40px;
+    height: 50px;
+}
+
+.logoimg {
+    width: 100%;
+}
+
+.searchbarcontainer {
+    width: 600px;
+    height: auto;
+}
+
+.bar {
+    height: auto;
+    background-color: #fff;
+    margin: 20px 5px;
+}
+
+.searchbar {
+    width: 100%;
+}
+
+.search {
+    display: inline-block;
+    width: 80%;
+}
+
+.questionmark {
+    font-size: 30px;
+}
+ 
+.msquareimgcontainer {
+    width: 30px;
+    height: auto;
+}
+
+.msquareimg {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.maincontainer {
+    background-color: #F1F1F1;
+}
+
 .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #F1F1F1;
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .column {
@@ -221,4 +285,45 @@ body {
     width: 40px;
     height: auto;
     margin-right: 20px;
+}
+/* navbar */
+
+.navbarcontainer {
+    background-color: white;
+    width: 400px;
+    margin-top: 5px;
+}
+
+.navbarbox {
+    text-align: center;
+}
+
+.profileimgcontainer {
+    width: 150px;
+    height: auto;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.msquareprofileimg {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.navbarlowercontainer {
+    margin-top: 30px;
+}
+
+.linkcontainer {
+    height: 60px;
+}
+
+.linkcontainer :hover {
+    color: rgb(255, 0, 0);
+}
+
+.linkbutton {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
